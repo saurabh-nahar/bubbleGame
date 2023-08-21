@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilrouy';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(70, 70, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(121, 147, 227);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.panelTop{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(14, 40, 170);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.blink-red{
+    background-color: red;
+}
+
+.elem{
+    height: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.pbottom{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble{
+    display: none;
+    width: 5%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+    border-radius: 50%;
+    background-color: rgb(72, 72, 237);
+    color: beige;
+}
+
+.bubble:hover{
+    background-color: rgb(0, 0, 205);
+    cursor: pointer;
+}
+
+button{
+    height: 10%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(14, 40, 170);
+    font-size: xx-large;
+    color: white;
+}
+
+
+
