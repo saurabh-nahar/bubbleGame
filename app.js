@@ -10,6 +10,7 @@ let pbtm = document.querySelector(".pbottom");
 btn.addEventListener("click", startGame);
 
 function startGame(){
+    alert("On the top left you will see Hit which will display a number. Try to click the bubbles with same number. If you hit wrong number the screen will warn you with red color. Good Luck :)")
     btn.disabled = true;
     setTimeout(() => {
     makeBubble();
